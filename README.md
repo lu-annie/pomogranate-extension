@@ -3,3 +3,6 @@ A Pomodoro timer that keeps you focused on your work by showing you a boring pic
 
 Sources:
 https://codepen.io/TLJens/pen/azedap
+https://www.youtube.com/watch?v=dIrXIJ781DQ
+https://freshman.tech/first-chrome-extension/
+
