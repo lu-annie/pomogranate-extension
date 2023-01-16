@@ -5,5 +5,11 @@
     "description": "A Pomodoro timer that keeps you focused on your work by showing you a boring picture of a pomegranate every time you open a new tab.",
     "action": {
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js":["Content.js"]
+        }
+    ]
 }

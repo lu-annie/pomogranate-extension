@@ -1,18 +1,16 @@
 #container{
-    border:1px solid #333;
-    border-radius :20px;
     width:400px;
     margin:20px auto;
     padding:20px;
     text-align:center;
-    background : #333;
+    background : rgb(255, 255, 255);
   }
   
   #timer{ 
-    color:#f00; 
+    color:#872020; 
     font-size:50px; 
     margin:10px auto;
-    border : 5px solid red;
+    border : 5px solid #872020;
     border-radius:50%;
     width:200px;
     height:200px;
@@ -40,7 +38,7 @@
   }
   
   #buttons button { 
-    background:#4da6ff; 
+    background:#ddbebe; 
     border:none; 
     color:#fff; 
     cursor:pointer; 
@@ -53,14 +51,14 @@
   }
   
   #buttons button#shortBreak{
-    background : #0c0;
+    background : rgb(205, 144, 144);
   }
   
   #buttons button#longBreak{
-    background : #080;
+    background : rgb(145, 73, 73);
   }
   
   #buttons button#stop{
-    background : #f00;
+    background : #872020;
   }
   
