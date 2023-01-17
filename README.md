@@ -17,3 +17,5 @@ https://www.youtube.com/watch?v=dIrXIJ781DQ
 
 https://freshman.tech/first-chrome-extension/
 
+https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-size&preval=cover
+

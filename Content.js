@@ -4,8 +4,9 @@ const generateSTYLES = () => {
       background-image: url("https://images.unsplash.com/photo-1574709755254-fcd942d09d5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cG9tZWdyYW5hdGV8ZW58MHx8MHx8&w=1000&q=80");
       color: #fff;
       font-family: "Open Sans", sans-serif;
-      max-height: 700px;
       overflow: hidden;
+      background-repeat: repeat;
+      background-size: 100px;
     }
     .c {
       text-align: center;
