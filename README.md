@@ -11,11 +11,13 @@ You're ready to use Pomogranate!
 
 Sources:
 
-https://codepen.io/rajdgreat007/pen/edvZpx
-
 https://www.youtube.com/watch?v=dIrXIJ781DQ
 
 https://freshman.tech/first-chrome-extension/
 
 https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-size&preval=cover
+
+https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/
+
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/examples/water_alarm_notification
 

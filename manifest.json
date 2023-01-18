@@ -1,16 +1,29 @@
 {
     "manifest_version": 3,
     "name": "Pomogranate",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A Pomodoro timer that keeps you focused on your work by showing you a boring picture of a pomegranate every time you open a new tab.",
     "action": {
-        "default_popup": "popup.html",
-        "default_icon": "pomo.png"
+        "default_title": "Pomogranate",
+        "default_popup": "popup.html"
     },
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
             "js":["Content.js"]
         }
-    ]
+    ],
+    "permissions": [
+        "alarms",
+        "notifications",
+        "storage"
+      ],
+    "background": {
+        "service_worker": "background.js"
+      },
+      "icons": {
+        "16": "pomo16.png",
+        "48": "pomo48.png",
+        "128": "pomo.png"
+      }
 }

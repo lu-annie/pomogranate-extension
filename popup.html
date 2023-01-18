@@ -1,24 +1,47 @@
-<head>
-  <link rel="stylesheet" href="popup.css" />
-</head>
+ <style>
+      header {
+        text-align: center;
+        font-size: large;
+      }
 
-<div id="pomodoro-app">
-    <div id="container">
-      <div id="timer">
-        <div id="time">
-          <span id="minutes">25</span>
-          <span id="colon">:</span>
-          <span id="seconds">00</span>
-        </div>
-        <div id="filler"></div>
-      </div>
-  
-      <div id="buttons">
-        <button id="work">Work</button>
-        <button id="shortBreak">Short Break</button>
-        <button id="longBreak">Long Break</button>
-        <button id="stop">Reset</button>
-      </div>
-      <script src="popup.js"></script>
-    </div>
-  </div>
+      h2 {
+        text-align: center;
+        font-size: large;
+        font-weight:bold;
+        color:#8a4040
+      }
+      
+      body {
+        text-align: center;
+      }
+
+      button {
+        margin:10px;
+        color:white;
+        border: none;
+        border-radius:20px; 
+        padding:15px;
+        min-height:30px; 
+        min-width: 120px;
+      }
+
+      button:hover {
+        outline: #8a4040 auto thick;
+      }
+    </style>
+    <!--
+      - JavaScript and HTML must be in separate files
+     -->
+  </head>
+  <header>Welcome to</header>
+  <h2>Pomogranate!</h2>
+  <body>
+      <!-- An Alarm delay of less than the minimum 1 minute will fire
+      in approximately 1 minute increments if released -->
+      <button id="studySesh" value="25" style="background-color:#e8c6c6">Start Studying</button>
+      <button id="min5" value="5" style="background-color:#CD9090">Short Break</button>
+      <button id="min15" value="15" style="background-color:#914949">Long Break</button>
+      <button id="cancelAlarm" style="background-color:#872020">Cancel Timer</button>
+   <script src="popup.js"></script>
+  </body>
+</html>
