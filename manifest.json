@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Pomogranate",
     "version": "1.0.0",
-    "description": "A Pomodoro timer that keeps you focused on your work by showing you a boring picture of a pomegranate every time you open a new tab.",
+    "description": "A Pomodoro timer that keeps you focused on your work by showing you pomegranates every time you open a social media site.",
     "action": {
         "default_title": "Pomogranate",
         "default_popup": "popup.html"

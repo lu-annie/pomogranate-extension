@@ -1,5 +1,5 @@
 # pomogranate-extension
-A Pomodoro timer that keeps you focused on your work by showing you a boring picture of a pomegranate every time you open a new tab.
+A Pomodoro timer that keeps you focused on your work by showing you pomegranates every time you open a social media site.
 
 How to use this extension:
 
