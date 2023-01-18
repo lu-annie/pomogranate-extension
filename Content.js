@@ -8,64 +8,19 @@ const generateSTYLES = () => {
       background-repeat: repeat;
       background-size: 100px;
     }
-    .c {
-      text-align: center;
-      display: block;
-      position: relative;
-      width: 80%;
-      margin: 100px auto;
-    }
+
     ._1 {
       text-align: center;
+      margin: 0;
+      font-size:4em;
+      font-weight: bold;
+      text-shadow: 2px 2px #FF0000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%) }
       display: block;
-      position: relative;
-      font-size: 4em;
-      line-height: 80%;
-    }
-    ._2 {
-      text-align: center;
-      display: block;
-      position: relative;
-      font-size: 20px;
-    }
-    .text {
-      font-size: 70px;
-      text-align: center;
-      position: relative;
-      display: inline-block;
-      margin: 19px 0px 0px 0px;
-      /* top: 256.301px; */
-      z-index: 3;
-      width: 100%;
-      line-height: 1.2em;
-      display: inline-block;
-    }
-    
-   
-    .right {
-      float: right;
-      width: 60%;
-    }
-    
-    hr {
-      padding: 0;
-      border: none;
-      border-top: 5px solid #fff;
-      color: #fff;
-      text-align: center;
-      margin: 0px auto;
-      width: 420px;
-      height: 10px;
-      z-index: -10;
-    }
-    
-    hr:after {
-      display: inline-block;
-      position: relative;
-      top: -0.75em;
-      font-size: 2em;
-      padding: 0 0.2em;
-      background: #33cc99;
     }
     
      </style>`;
@@ -73,10 +28,9 @@ const generateSTYLES = () => {
   
   const generateHTML = (pageName) => {
     return `
-    <div class='c'>
-        <div class='_1'>You've been stopped by the Pomogranate</div>
-        <div class='_2'>Back to work now!</div>
-    </div>
+        <div class='_1'>You've been stopped by the Pomogranate.
+        </br>
+        Get back to work now!</div>
      `;
   };
   
